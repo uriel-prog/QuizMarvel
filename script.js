@@ -1,12 +1,12 @@
 const perguntas = [
   {
 
-    pergunta: "Qual é o nome da Terra onde os Illuminati aparecem em Doutor Estranho no Multiverso da Loucura?",
+    pergunta: "Qual linguagem é responsável pela estrutura da página web?",
     alternativas: [
-        "Terra-616",
-        "Terra-838",
-        "Terra-199999",
-        "Terra-42",
+        "CSS",
+        "HTML",
+        "JS",
+        "Python",
 
     ],
     correta: 1
@@ -14,81 +14,56 @@ const perguntas = [
 
    {
 
-    pergunta: "Qual é o nome da Terra principal do Universo Marvel?",
+    pergunta: "Qual linguagem usamos para estilizar uma página?",
     alternativas: [
-        "Terra-616",
-        "Terra-838",
-        "Terra-42",
-        "Terra-199999",
-
-    ],
-    correta: 0
-  },
-
-   {
-
-    pergunta: "Qual personagem consegue viajar entre diferentes universos?",
-    alternativas: [
-        "Homem-Aranha",
-        "Doutor Estranho",
-        "Capitão América",
-        "Hulk",
-
-    ],
-    correta: 1
-  },
-
- {
-
-    pergunta: "Qual era a função principal da TVA antes dos acontecimentos envolvendo Loki?",
-    alternativas: [
-        "Proteger a Terra-616",
-        "Controlar as Joias do Infinito",
-        "Impedir ramificações da linha do tempo",
-        "Caçar variantes de Kang",
+        "HTML",
+        "Java",
+        "CSS",
+        "Python",
 
     ],
     correta: 2
   },
 
-  {
+   {
 
-    pergunta: "Qual é o nome da entidade que vive no final do tempo na série Loki?",
+    pergunta: "Qual linguagem permite adicionar interatividade a uma página?",
     alternativas: [
-        "Kang",
-        "Aquele Que Permanece",
-        "Alioth",
-        "Victor Timely",
-
-    ],
-    correta: 1
-  },
-
-  {
-
-    pergunta: "Qual organização monitora as linhas do tempo em Loki?",
-    alternativas: [
-        "S.H.I.E.L.D.",
-        "AVT",
-        "Wakanda",
-        "Kamar-Taj",
-
-    ],
-    correta: 1
-  },
-
-  {
-
-    pergunta: "Qual personagem é uma variante de Loki?",
-    alternativas: [
-        "Sylvie",
-        "Wanda",
-        "Gamora",
-        "Nebulosa",
+        "JS",
+        "HTML",
+        "CSS",
+        "SQL",
 
     ],
     correta: 0
-  }
+  },
+
+   {
+
+    pergunta: "Qual evento ocorre quando o usuário clica em um elemento?",
+    alternativas: [
+        "mouseover",
+        "click",
+        "load",
+        "change",
+
+    ],
+    correta: 1
+  },
+
+  {
+
+  pergunta: "Qual comando pode localizar um elemento pelo seu ID?",
+    alternativas: [
+        "document.getElementById()",
+        "cosole.log()",
+        "alert()",
+        "document.write()",
+
+    ],
+    correta: 0
+  },
+
 
 ];
 
@@ -123,7 +98,6 @@ function mostrarPergunta() {
 
 }
 
-
 function verificarResposta(indice) {
 
     if(indice === perguntas[perguntaAtual].correta) {
@@ -135,15 +109,11 @@ function verificarResposta(indice) {
     if(perguntaAtual < perguntas.length) {
 
         mostrarPergunta();
-
     } else {
 
         mostrarResultado();
-
     }
-
 }
-
 
 function mostrarResultado() {
 
@@ -157,6 +127,5 @@ function mostrarResultado() {
     " de " + perguntas.length + " perguntas.";
 
 }
-
 
 mostrarPergunta();
