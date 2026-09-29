@@ -35,7 +35,7 @@ const perguntas = [
         "Capitã Carter",
 
     ],
-    correta: 0
+    correta: 1
   },
 
  {
@@ -61,7 +61,7 @@ const perguntas = [
         "Victor Timely",
 
     ],
-    correta: 1
+    correta: 0
   },
 
   {
