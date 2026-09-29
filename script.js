@@ -25,17 +25,17 @@ const perguntas = [
     correta: 0
   },
 
-   {
+  {
 
-    pergunta: "Qual personagem consegue viajar entre diferentes universos?",
+    pergunta: "Qual personagem da Terra-838 usa a cadeira flutuante durante a reunião dos Illuminati?",
     alternativas: [
-        "Homem-Aranha",
-        "Doutor Estranho",
-        "Capitão América",
-        "Hulk",
+        "Barão Mordo",
+        "Professor Xavier",
+        "Reed Richards",
+        "Capitã Carter",
 
     ],
-    correta: 1
+    correta: 0
   },
 
  {
@@ -82,11 +82,12 @@ const perguntas = [
     pergunta: "Qual personagem é uma variante de Loki?",
     alternativas: [
         "Sylvie",
-        "Wanda",
-        "Gamora",
+        "Dormammu",
+        "Jean Gray",
         "Nebulosa",
 
     ],
+    
     correta: 0
   }
 
